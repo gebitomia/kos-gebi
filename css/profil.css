@@ -1,0 +1,208 @@
+/*-----------------------
+  Profil
+-------------------------*/
+.profile-container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+}
+
+.profile-container h2 {
+    margin-bottom: 30px;
+}
+
+.profile-container img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.profile-info-table {
+    width: 50%;
+    /* Kurangi lebar tabel sedikit */
+    margin: 0 auto;
+    /* Tambahkan margin ini untuk memastikan tabel berada di tengah */
+    margin-top: 20px;
+}
+
+.profile-info-table td {
+    padding: 10px;
+    font-size: 1.1rem;
+}
+
+.profile-info-table .label {
+    text-align: left;
+    font-weight: bold;
+    color: #555;
+    width: 50%;
+}
+
+.profile-info-table .value {
+    text-align: left;
+    font-weight: normal;
+    color: #000;
+    width: 100%;
+}
+
+.profile-buttons {
+    margin-top: 20px;
+}
+
+.profile-buttons a {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.profile-background {
+    background-image: url('../gambar/hero/hero-1.jpg');
+    /* Sesuaikan dengan gambar latar belakang Anda */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+
+.modal-header {
+    background-color: #343a40;
+    color: white;
+}
+
+.modal-footer .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.modal-footer .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.modal-content {
+    border-radius: 10px;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+    .profile-container {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .profile-info-table td {
+        font-size: 1rem;
+        padding: 8px;
+    }
+
+    .profile-buttons a {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+    .profile-info-table {
+        width: 90%;
+        /* Kurangi lebar tabel sedikit */
+        margin: 0 auto;
+        /* Tambahkan margin ini untuk memastikan tabel berada di tengah */
+        margin-top: 20px;
+    }
+
+    .profile-info-table td {
+        padding: 10px;
+        font-size: 1.1rem;
+    }
+
+    .profile-info-table .label {
+        text-align: left;
+        font-weight: bold;
+        color: #555;
+        width: 50%;
+    }
+
+    .profile-info-table .value {
+        text-align: left;
+        font-weight: normal;
+        color: #000;
+        width: 100%;
+    }
+}
+
+.edit-profile-background {
+    background-image: url('../gambar/hero/hero-1.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.edit-profile-container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.edit-profile-container h2 {
+    margin-bottom: 30px;
+}
+
+.edit-profile-picture-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.edit-profile-picture-container img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+}
+
+.edit-profile-picture-container input[type="file"] {
+    display: none;
+}
+
+.edit-upload-label {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+    .edit-profile-container {
+        padding: 20px;
+    }
+
+    .edit-profile-picture-container img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .edit-upload-label {
+        font-size: 12px;
+    }
+
+    .form-group label {
+        text-align: left;
+    }
+}

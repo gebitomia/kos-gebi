@@ -1,0 +1,96 @@
+.backgroundd {
+    background-image: url('../img/bglogin.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-containerr {
+    height: 400px;
+    width: 400px;
+    /* Menyesuaikan lebar agar cukup untuk dua kolom */
+    border: 2px solid rgba(255, 255, 255, 4);
+    border-radius: 10px;
+    background: rgba(0, 0, 0, .8);
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2),
+        0 0 15px rgba(0, 0, 0, .2),
+        0 0 30px rgba(0, 0, 0, .2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-boxx {
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    width: 100%;
+
+}
+
+.login-boxx h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.login-boxx p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.login-boxx p a {
+    margin-bottom: 20px;
+    color: rgb(5, 68, 122);
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.input-groupp {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.input-groupp:last-child {
+    margin-right: 0;
+}
+
+.input-groupp label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-groupp input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.button-style {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #dfa974;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button-style:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: black;
+}
